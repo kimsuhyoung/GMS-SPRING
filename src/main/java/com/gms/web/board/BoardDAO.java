@@ -2,8 +2,10 @@ package com.gms.web.board;
 
 import java.util.List;
 
-import com.gms.web.board.ArticleDTO;
+import org.springframework.stereotype.Repository;
 
+import com.gms.web.board.ArticleDTO;
+@Repository
 public interface BoardDAO {
 	public String insert(ArticleDTO bean);
 	public List<ArticleDTO> selectAll();

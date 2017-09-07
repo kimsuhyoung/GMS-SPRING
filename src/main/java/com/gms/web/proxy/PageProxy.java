@@ -5,12 +5,15 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.springframework.stereotype.Component;
+
 import com.gms.web.member.MemberService;
 import com.gms.web.member.MemberServiceImpl;
 
 import lombok.Getter;
 import lombok.Setter;
 
+@Component
 public class PageProxy extends Proxy{
 	
 	@Getter @Setter protected int 

@@ -4,12 +4,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.springframework.stereotype.Service;
+
 import com.gms.web.command.CommandDTO;
 import com.gms.web.member.MemberDAO;
 import com.gms.web.grade.MajorDTO;
 import com.gms.web.member.MemberDTO;
 import com.gms.web.member.StudentDTO;
 
+@Service
 public class MemberServiceImpl implements MemberService{
 	public static MemberServiceImpl getInstance() {
 		return new MemberServiceImpl();

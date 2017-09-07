@@ -4,8 +4,12 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
+
+import org.springframework.stereotype.Component;
+
 import com.gms.web.constant.DB;
 
+@Component
 public class JDBCTest {
 	public static void main(String[] args) {
 		String findName="";

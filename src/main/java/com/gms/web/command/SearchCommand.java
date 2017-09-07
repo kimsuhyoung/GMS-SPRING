@@ -1,5 +1,8 @@
 package com.gms.web.command;
 
+import org.springframework.stereotype.Component;
+
+
 public class SearchCommand extends CommandDTO {
 	public SearchCommand(String dir,
 			String action,

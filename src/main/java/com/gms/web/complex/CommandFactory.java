@@ -1,8 +1,11 @@
 package com.gms.web.complex;
 
+import org.springframework.stereotype.Component;
+
 import com.gms.web.command.*;
 import com.gms.web.constant.Action;
 
+@Component
 public class CommandFactory {
 	
 	public static CommandDTO createCommand(
